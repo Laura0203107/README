@@ -12,14 +12,25 @@
 <form action="" method="get">
 
 <label for="nombre">
-    <span>Digite sus Nombre y apellidos </span>
-    <input type="text" id="nombre" placeholder="Nombre y Apellidos" required>
+    <span>Digite sus Nombre </span>
+    <input type="text" id="nombre" placeholder="Nombres" required>
     <br> </br>
 </label>
 
+<label for="Apellido">
+    <span>Digite sus Nombre </span>
+    <input type="text" id="Apellido" placeholder="" required>
+    <br> </br>
+</label>
+
+<p>Sexo:
+    <input type="radio" name="hm" value="h"> Hombre
+    <input type="radio" name="hm" value="m"> Mujer
+  </p>
+
 <label for="Telefono">
     <span>Digite su telefono</span>
-    <input type="string" id="Telefono" placeholder="Telefono" required>
+    <input type="number" id="Telefono" placeholder="Telefono" required>
     <br> </br>
 </label>
 
@@ -52,8 +63,6 @@
     <input type="password" id="Confirmacion Contraseña" placeholder="Contraseña" required>
     <br> </br>
 </label> 
-
-
 <p>
 <input type="submit" value="Enviar" />
 </p>
